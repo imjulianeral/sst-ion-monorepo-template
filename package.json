@@ -1,0 +1,23 @@
+{
+  "name": "sst-ion-monorepo-setup",
+  "version": "0.0.0",
+  "description": "",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sst": "ion"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/aws-lambda": "8.10.141",
+    "typescript": "^5.5.3"
+  }
+}

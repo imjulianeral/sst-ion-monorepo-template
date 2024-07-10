@@ -1,0 +1,15 @@
+{
+	"name": "scripts",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"shell": "sst shell tsx ./src/*.ts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tsx": "^4.16.2"
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"extends": "@tsconfig/node20/tsconfig.json",
+	"compilerOptions": {
+		"module": "esnext",
+		"moduleResolution": "node",
+		"baseUrl": ".",
+		"paths": {
+			"@core/*": ["./packages/core/src/*"],
+			"@infra/*": ["./infra/*"]
+		}
+	}
+}
